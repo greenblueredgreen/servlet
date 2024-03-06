@@ -19,6 +19,8 @@ public class GetMethodQuiz05 extends HttpServlet{
 		response.setContentType("text/html");
 		response.setCharacterEncoding("utf-8");
 		
+		//클론에서 주석 추가
+		
 		// Request Parameter(param)
 		// number는 단수 이다. 
 		int number= Integer.valueOf(request.getParameter("number"));
