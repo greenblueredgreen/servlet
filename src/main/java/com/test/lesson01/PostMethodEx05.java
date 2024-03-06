@@ -24,7 +24,7 @@ public class PostMethodEx05 extends HttpServlet{
 		String name = request.getParameter("name");
 		String birth = request.getParameter("birth");
 		String email = request.getParameter("email");
-		
+		// 깃허브 테스트 링크
 		// 테이블로 출력하기
 		PrintWriter out = response.getWriter();
 		out.print("<html><head><title>회원 정보</title></head><body>");
