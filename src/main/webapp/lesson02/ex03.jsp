@@ -21,8 +21,20 @@
 		<label>민트초코<input type="checkbox" name="food" value="민트초쿄"></label>
 		<label>하와이안 피자<input type="checkbox" name="food" value="하와이안 피자"></label>
 		<label>레몬<input type="checkbox" name="food" value="레몬"></label>
+		<br><br>
+		
+		
+		5. 좋아하는 과일을 선택하시오. <br>
+		<select name="fruit">
+			<option>사과</option>
+			<option>포도</option>
+			<option>복숭아</option>
+			<option>바나나</option>
+			<option>체리</option>
+		</select>
+		<br><br>
+		
+		<button type="submit">제출</button>
 	</form>
-
-
 </body>
 </html>
