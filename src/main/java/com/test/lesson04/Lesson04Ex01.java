@@ -19,6 +19,8 @@ public class Lesson04Ex01 extends HttpServlet{
 	public void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws IOException {
 		
+		
+		//text/plain 설정 
 		response.setContentType("text/plain");
 		
 		//DB연결
