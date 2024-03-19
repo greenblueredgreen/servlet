@@ -39,7 +39,7 @@ public class Lesson04Quiz01 extends HttpServlet {
 		
 		// 셀렉트(db) => 출력
 		String selectQuery = "select `address`, `area`, `type` from `real_estate`"
-				+ "order by `id` desc "
+				+ "order by `id` desc " //띄어쓰기를 꼭 해줘야한다.
 				+ "limit 10";
 		try {
 			ResultSet resultSet = ms.select(selectQuery);
